@@ -2,8 +2,19 @@
 
 Welcome to the OctoAcme project management documentation. These guides standardize how we run projects across the organization, support clear ownership and alignment, and reinforce our customer-first and data-informed principles.
 
+## Overview of OctoAcme Project Management Processes
+
+OctoAcme's project management approach is structured around a clear lifecycle that moves work from initiation to planning, execution, release, and continuous improvement. The process begins with an initiation phase in which the team defines the problem, success metrics, stakeholders, and high-level milestones to decide whether the project should move forward. Once approved, planning turns the initiative into a prioritized backlog, estimates, dependencies, and a release plan, with explicit activities like kickoff meetings, definition of done, and risk identification. Execution is managed through sprint or milestone-based delivery, with work tracked in a project board and progress monitored through daily standups, demos, and weekly delivery reviews. At the end of the cycle, the team conducts retrospectives to capture lessons learned and convert them into concrete action items for the next planning cycle.
+
+The operating model is grounded in defined personas and role clarity. Product managers own the problem definition, outcomes, and prioritization, while project managers coordinate schedules, risks, dependencies, and documentation so execution stays aligned with stakeholder expectations. Developers build and test the work, QA teams validate quality and acceptance criteria, and stakeholders provide input, approvals, and business context. The documentation emphasizes customer value, iterative delivery, clear ownership, and psychological safety, creating a team culture where decision-making is evidence-based and accountability is visible.
+
+Communication is a core part of OctoAcme's process and is intentionally regular and structured. The team follows a cadence that includes daily standups, weekly syncs between PM and product lead, periodic demos, and monthly stakeholder updates, while also using ad hoc escalations when blockers arise. Risk and dependency management is handled through a risk register and explicit escalation paths, so impacts are assessed early and communicated upward when issues become business critical or cross-team. Status updates are expected to use a single source of truth, and communication templates help keep information consistent across engineering, stakeholders, and support teams.
+
+Quality assurance is built into the delivery workflow rather than treated as a last-minute step. The process asks teams to use small PRs, include issue links and acceptance criteria in pull requests, and require CI checks such as automated tests, linting, and security scanning before review. New logic should be covered by unit and integration tests, and critical user flows should receive smoke tests before release. Release and deployment follow defined checklists, rollback plans, and post-deploy verification, while retrospectives ensure that process improvements are tracked and incorporated over time.
+
 ## Table of Contents
 
+- [Overview of OctoAcme Project Management Processes](#overview-of-octoacme-project-management-processes)
 - [Quick Start](#quick-start)
 - [Documentation by Lifecycle Phase](#documentation-by-lifecycle-phase)
   - [Overview](#overview)
